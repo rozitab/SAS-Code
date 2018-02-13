@@ -1,5 +1,6 @@
 %let search_string = Libname;
 %let suffix = sas;
+%let prefix= ;
 %let path=C:\sas ;
 filename finp ("&path\*.&suffix" ); /* det går att skriva flera sökväg */
 *filename finp( "&path\*.&suffix" , "C:\Users\sweroz\*.&suffix"); 
